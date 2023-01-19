@@ -1,6 +1,7 @@
-let items = 0,
-  msg = "",
-  city = window.prompt("What is the name of your city?", "");
+let items = 0;
+let msg = "";
+let city = window.prompt("What is the name of your city?", "");
+
 if ((city === null) || (city === "")) {
   msg = "No city entered. Cannot determine delivery availability.";
 } else {
@@ -24,7 +25,9 @@ if ((city === null) || (city === "")) {
       items = 0;
   }
 }
+
 document.write(msg);
+
 if (items > 0) {
   document.write("<p>We can deliver up to " + items + " items to your city.</p>");
   document.write("<p>Print this out, write your item numbers below, and mail it to us to order.</p>");
