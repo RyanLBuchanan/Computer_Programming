@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Quick_Start_Finance.exe" version="1.0.0.1" publicKeyToken="8b8a05821586fb1b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Quick_Start_Finance" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Quick_Start_Finance.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2171272">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.2" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0L2snmaKAUcjtaEk8tX9KtjoRDNL/YsVlI4woTySz2c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Quick_Start_Finance.exe" size="104416">
+      <assemblyIdentity name="Quick_Start_Finance" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MGyk5fW1ASIgU0FFGi+6iOdBvyEgV2rVw6w7y2GB0B4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Quick_Start_Finance.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DPA6UIA\vreed" issuerKeyHash="d8c047fda23410deebf5ef72c069b549e5ce71a7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WWgZw1Yel6ViO4EfO0OtxQ00VdylYJoOmoXlixQq/bk=</DigestValue></Reference></SignedInfo><SignatureValue>jq6hzjNb2b3WromUJmTb+gtvuW6dly27wH6jutGzOMxNiOw9t7n3TNwwOiYsf1/PQBzwRlm44mxp5HXYjK7FVKGzIdjiz/O+Gn21EL8cP48+QQyatHBrfwWGzPMk+q/Yo512wl4S2CnT/ThYQonmQWPULTm/gjfR3eV3xSNymKE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qjWVkgexjuz07SrHFAKmkbTT+ZsO1Ph4dSAFyJ8gOHFYVDpX5HefSrzWlBGVvaQ6jABifAb1NtSLO40m1EMTW1OSWY9JICzk/HDdnaT4mP1JtQUgN975HLOCf3x0qyaRZ2GqZhw+KGoDKueG3fHwEl/7+2422KhpCDsMaB52VwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b9fd2a148be5859a0e9a60a5dc55340dc5ad433b1f813b62a5971e56c3196859" Description="" Url=""><as:assemblyIdentity name="Quick_Start_Finance.exe" version="1.0.0.1" publicKeyToken="8b8a05821586fb1b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DPA6UIA\vreed</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qaXAdV9D3ea4l99ZjIzf3FT04Uv5rK/fvlzBsj/mYXk=</DigestValue></Reference></SignedInfo><SignatureValue>I3wFkTbJREUIhktFETfUGxQOf+zPIGQUXMCpHZbFE5f1c8yYRoqwq1trQohesfCzetNjbuZBozQzCRRSC3zu1ktnVVA7KvsXWSvcp+JyfffccHaFxZbAosGcyn9iZ14/1dLs/bb8sdrJiNpp3MAJbSDjAaMPVhQ4EdME5cBSZ7Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qjWVkgexjuz07SrHFAKmkbTT+ZsO1Ph4dSAFyJ8gOHFYVDpX5HefSrzWlBGVvaQ6jABifAb1NtSLO40m1EMTW1OSWY9JICzk/HDdnaT4mP1JtQUgN975HLOCf3x0qyaRZ2GqZhw+KGoDKueG3fHwEl/7+2422KhpCDsMaB52VwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQUWQQVt4s1YlANyw8o7B+yjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAUABBADYAVQBJAEEAXAB2AHIAZQBlAGQwHhcNMjMwMjA2MTQ0NTM4WhcNMjQwMjA2MjA0NTM4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAUABBADYAVQBJAEEAXAB2AHIAZQBlAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKo1lZIHsY7s9O0qxxQCppG00/mbDtT4eHUgBcifIDhxWFQ6V+R3n0q81pQRlb2kOowAYnwG9TbUizuNJtRDE1tTklmPSSAs5Pxw3Z2k+Jj9SbUFIDfe+Ryzgn98dKsmkWdhqmYcPihqAyrnht3x8BJf+/tuNtioaQg7DGgedlcBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAjWIfRwhPn4oYOr+RSdfSKvFhpEioganrAFRBgLuNae+Jx/V01bAT/1Vekfg+DnwGiyAWDenXmzneR972jJm3FvAkXge5DJey2mBUeOfgJAX+FtEKsOY0/Vyb37j0F0FJpVQl1ywML9/2tRby5j8Nr7BwXtqhy9BBL/wXlkzTcqs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
